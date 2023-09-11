@@ -24,21 +24,23 @@ h1, h2, h3, h4, h5 {
   h5 {font-size: 1.25rem;}
 .flex-container{
     display: flex;
-    justify-content: space-evenly; /* allocateas extra space inbetween or around our elements */ 
-    flex-wrap: wrap; /* wraps next card to new line when space is gone */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     width: 95vw;
-    margin: 50px auto; /* centers element */
+    margin: 50px auto;
 }
 .fart{
-    width: 45%;
+    width: 33%;
     height: 400px;
     align-items: center;
     display: flex;
     flex-direction: column;
     border: 3px black solid;
     border-radius: 10%;
+    background-color: green;
 }
-.centralize{
+.central{
     text-align: center;
+    margin-top: 3%;
 }
