@@ -1,24 +1,24 @@
+html, body, *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Bungee', cursive;
-    background-color: rgb(17, 0, 255);
+    background-color: blue;
 }
-h1, h2, h3, h4, h5{
-    font-weight: 1;
-    line-height: 50px;
-    text-align: center;
-}
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+  }
 h1{
-    color: rgb(0, 255, 0);
+    color:lime;
 }
 h2{
-    color: rgb(255, 0, 255);
+    color: yellow;
 }
 h3{
-    color: rgb(255, 251, 0);
+    color: rgb(255, 0, 128);
 }
 h4{
-    color: rgb(255, 140, 0);
-}
-.central{
-    text-align: center;
+    color:red; 
 }
