@@ -14,22 +14,22 @@ h1, h2, h3, h4, h5 {
   }
 h1{
     color:lime;
-    transition: all 5s;
+    transition: all 0.01s;
 }
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, li:hover{
-    transform: translateY(-1000px);
+    color:blue;
 }
 h2{
     color: yellow;
-    transition: all .1s;
+    transition: all .01s;
 }
 h3{
     color: rgb(255, 0, 128);
-    transition: all .1s;
+    transition: all .01s;
 }
 h4{
     color:white;
-    transition: all .1s; 
+    transition: all .01s; 
 }
 li{
     margin-left: 40%;
